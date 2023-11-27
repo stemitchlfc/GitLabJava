@@ -15,5 +15,14 @@ public class Main {
         System.out.println(leapYear);
         int zero = dollarADay.calculateTotal(0);
         System.out.println(zero);
+
+        String firstReversal = ReverseString.reverse("Example String");
+        System.out.println(firstReversal);
+        String secondReversal = ReverseString.reverse("Liverpool");
+        System.out.println(secondReversal);
+        String thirdReversal = ReverseString.reverse("Reverse String");
+        System.out.println(thirdReversal);
+        String fourthReversal = ReverseString.reverse("String");
+        System.out.println(fourthReversal);
     }
 }
